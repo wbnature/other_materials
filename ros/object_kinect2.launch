@@ -1,0 +1,36 @@
+<launch>
+  <!-- Which image resolution: sd, qhd, hd -->
+  <arg name="resolution" default="qhd" />
+  <arg name="publish_tf" value="true" />
+  <arg name="base_name" default="kinect2" />
+
+  <!-- start kinect2 -->
+  <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch">
+    <arg name="base_name" value="$(arg base_name)" />
+    <arg name="publish_tf" value="$(arg publish_tf)" />
+<!--
+    <remap from="camera/rgb/image_raw" to="/kinect2/$(arg resolution)/image_color_rect"/>
+    <remap from="camera/depth/image_raw" to="/kinect2/$(arg resolution)/image_depth_rect"/>
+    <remap from="camera/rgb/camera_info" to="/kinect2/$(arg resolution)/camera_info"/>
+    <remap from="camera/depth/camera_info" to="/kinect2/$(arg resolution)/camera_info"/>
+-->
+  </include>
+
+  <node pkg="tf" type="static_transform_publisher" name="kinect2_to_camera_tf" 
+		args="0 0.0 0 0.0 0.0 0.0 /kinect2_ir_optical_frame /camera_depth_optical_frame 40" />   
+
+<!-- Republishing the depth and RGB image topics   -->
+  <node name="relay_image_depth_rec" pkg="topic_tools" type="relay" args="/kinect2/$(arg resolution)/image_depth_rect /camera/depth/image_raw" />
+  <node name="relay_image_color_rect" pkg="topic_tools" type="relay" args="/kinect2/$(arg resolution)/image_color_rect /camera/rgb/image_raw" />
+  <node name="relay_image_camera_info" pkg="topic_tools" type="relay" args="/kinect2/$(arg resolution)/camera_info /camera/rgb/camera_info" />
+  <node name="relay_depth_camera_info" pkg="topic_tools" type="relay" args="/kinect2/$(arg resolution)/camera_info /camera/depth/camera_info" />
+
+
+
+</launch>
+
+
+
+
+
+
