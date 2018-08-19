@@ -76,6 +76,7 @@ chainloader (${root})/efi/Boot/bkpbootx64.efi
 END /etc/grub.d/25_custom
 
 参考博文：http://m.blog.csdn.net/article/details?id=50589667
+
 https://blog.csdn.net/u012260238/article/details/52713724
          
          
