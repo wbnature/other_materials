@@ -1,4 +1,4 @@
-# gazebo2 t0 gazebo7
+gazebo2 t0 gazebo7
 
 下载 ./gazebo.sh，然后运行下面语句
 
