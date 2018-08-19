@@ -8,23 +8,24 @@
 还是需要进入Ubuntu界面，但是并不需要安装（如果直接安装的话，以前在Ubuntu里面的文件可全部都没有了，所以万不得已，千 
 万别这样做）。
 
-第二步： 
+第二步：
+
 选择TRY Ubuntu选项，进入U盘的Ubuntu 试用系统，并连接好网络（因为后续工作需要用到网络）。
 
 第三步： 
+
 打开终端，终端快捷键是Ctrl+Alt+T，输入命令，添加boot-repair所在的源： 
 sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
 
-第四步： 
+第四步：
+
 待上面命令执行完毕后，继续输入以下命令，安装boot-repair并且开启boot-repair： 
 sudo apt-get install -y boot-repair && boot-repair
 
-等一会，会出现如下的界面： 
-这里写图片描述
+等一会，点击Recommended repair，过几分钟重启就行了。
 
-就会出现这个，点击Recommended repair，过几分钟重启就行了。
+第五步：
 
-第五步： 
 如果上面已经执行成功了，可以跳过此部，否则，我们可以自己输入命令进行修复：
 
 　　sudo recommended repair
