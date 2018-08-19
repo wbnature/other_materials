@@ -2,7 +2,7 @@
 
 下载 ./gazebo.sh，然后运行下面语句
 
-    cd 下载 ./gazebo.sh 的目录
+    cd 下载的 ./gazebo.sh 目录
     sudo apt-get remove gazebo2*
     sudo chmod 777 ./gazebo.sh
     ./gazebo.sh
