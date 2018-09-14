@@ -50,11 +50,12 @@ Password 为上一步中的设置的密码。
 
 #### 3. 拷贝文件
 
-假设两台机器A，B，都是Linux主机，A为本地主机(即用于控制其他主机的机器)，B为远程主机(即被控制的机器Server), 假如ip为169.254.245.90。在A上的命令用 root 权限进行拷贝文件。
+假设两台机器A，B，都是Linux主机，A为本地主机(即用于控制其他主机的机器)，B为远程主机(即被控制的机器Server), 假如ip为169.254.245.90。
 
 在本地主机A上做如下设置：
 
 ~~~c++
+sudo -s // 进入 root  权限
 ssh-keygen -t rsa // 连续三次回车,即在本地生成了公钥和私钥,不设置密码
 ssh 169.254.245.90 "mkdir .ssh;chmod 0700 .ssh"   // 需要输入密码，为远程主机B的root密码
 scp ~/.ssh/id_rsa.pub 169.254.245.90:.ssh/id_rsa.pub // 需要输入密码，为远程主机B的root密码
@@ -63,6 +64,7 @@ scp ~/.ssh/id_rsa.pub 169.254.245.90:.ssh/id_rsa.pub // 需要输入密码，为
 在远程主机B上做以下设置：
 
 ~~~c++
+sudo -s // 进入 root  权限
 touch ~/.ssh/authorized_keys // 如果已经存在这个文件, 跳过这条命令
 chmod 600 ~/.ssh/authorized_keys //如果前面已经存在这个文件, 可以跳过这条，但一定要保证文件属性只有owner可读
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys // 将id_rsa.pub的内容追加到 authorized_keys 中
