@@ -80,3 +80,14 @@ scp /home/wb/readme.md root@169.254.245.90:/home/cheng // 拷贝 /home/wb/readme
 
 ![](./4.png)
 
+#### 4. 补充
+以 h 账户登录：
+
+![](./5.png)
+
+
+
+从本地主机A拷贝文件到远程主机B：
+
+```c++
+scp /home/wb/readme.md h@169.254.245.90:/home/h // 拷贝 /home/wb/readme.md 到远程主机B的/home/cheng目录下，需要输入密码，为远程主机B的 h 账户密码
