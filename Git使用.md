@@ -4,7 +4,7 @@
 git init
 git add -A
 git commit -m "your msg"
-git remote add origin https://github.com/wbnature/mushen.git
+git remote add origin https://github.com/wbnature/test.git
 git push -u origin master
 ```
 
