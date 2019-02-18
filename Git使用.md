@@ -1,4 +1,4 @@
-### 初始使用
+#### 初始使用
 
 ```
 git init
@@ -8,7 +8,7 @@ git remote add origin https://github.com/wbnature/test.git
 git push -u origin master
 ```
 
-### 以后使用
+#### 以后使用
 
 ```
 git add -A
@@ -16,7 +16,7 @@ git commit -m "your msg"
 git push -u origin master
 ```
 
-### 更新本地仓库
+#### 更新本地仓库
 
 ```
 //方法一
