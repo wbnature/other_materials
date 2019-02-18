@@ -1,24 +1,24 @@
 #### 初始使用
 
-```
+~~~
 git init
 git add -A
 git commit -m "your msg"
 git remote add origin https://github.com/wbnature/test.git
 git push -u origin master
-```
+~~~
 
 #### 以后使用
 
-```
+~~~
 git add -A
 git commit -m "your msg"
 git push -u origin master
-```
+~~~
 
 #### 更新本地仓库
 
-```
+~~~
 //方法一
 git fetch origin master //从远程的origin仓库的master分支下载代码到本地的origin master
 
@@ -34,7 +34,7 @@ git diff temp//比较master分支和temp分支的不同
 git merge temp//合并temp分支到master分支
 
 git branch -d temp//删除temp
-```
+~~~
 
 #### Git安装
 
