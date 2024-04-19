@@ -34,5 +34,7 @@ sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb
 
 
 Ubuntu20.04 搜狗输入法打不出中文解决方案:
+
 sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2
+
 sudo apt install libgsettings-qt1
