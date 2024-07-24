@@ -3,6 +3,14 @@ VSCode 版本: 1.45.1
 设置 Google format 方式：
 https://www.cnblogs.com/zzoo/p/vscode_cpp_extensions.html
 
+{ BasedOnStyle: Google, ColumnLimit: 120}
+
+![Screenshot from 2024-07-24 23-52-38](https://github.com/user-attachments/assets/5276786e-154e-4c90-a32d-0365e28c0815)
+
+
+![Screenshot from 2024-07-24 23-52-46](https://github.com/user-attachments/assets/b2bbb5ce-fa97-4777-ad67-2aaa626d1488)
+
+
 其中：Clang_format_style 决定格式化形式，若为file，则调用在workspace中的.clang-format
 clang-format工具使用.clang-format来实现自定义格式化，使用" clang-format -style=可选格式名 -dump-config > .clang-format "导出clang-format，其中可选格式名为：LLVM、Google等。若要在团队中统一格式，则配置此文件即可。
 C_Cpp: Clang_format_fallback Style选项则是在 Clang_format_style=file失效（即找不到.clang-format文件时）的应对方案。参考截图中可以配置的value。
