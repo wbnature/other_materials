@@ -1,6 +1,9 @@
 浏览器应用商店上安装 Proxy SwitchyOmega 扩展
 可以从各自浏览器商店进行安装，只有 Chrome 的商店需要在代理环境下进行访问。
 
+安装 Proxy SwitchyOmega 3 (ZeroOmega)
+
+
 Firefox 请访问: Firefox 应用商店
 
 Edge、Chrome 请访问： Chrome 应用商店
