@@ -20,3 +20,14 @@ Sxj3Ix
 1080
 HTTP
 RC4-MD5
+
+#### windows 使用 ssrr:
+1. 将 ShadowsocksR-win-4.9.2 放到任何磁盘都行， 运行
+ShadowsocksR-win-4.9.2 中的ShadowsocksR-dotnet4.0.exe
+2. 按 1,2 png 中的内容操作，粘贴的网址为，一个网址，不是一系列 ssr 开头的：
+https://fast.lycorisrecoil.org/link/l4XWkxWjQ7cTx0cm?sub=1
+3. 按 3,4 png 中的内容操作， 在服务器-> 云 内选择一个代理点就即可
+4. 此时就可以上 google 了
+5. 可以先使用 系统代理模式->全局模式 进行测试
+6. 测试成功后可以使用  系统代理模式->PAC 模式
+
