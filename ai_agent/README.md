@@ -1,17 +1,22 @@
 ## chatgpt app 安装
 
 安装外网软件: 
+
 cmfa-2.11.34-meta-universal-release.apk
+
 https://clashmetaforandroid.com/#downloads
 
 
 安桌版本 chatgpt 安装:
+
 先安装: APKPure_3.20.7901_apkpure.com.apk
+
 再安装: ChatGPT_1.2026.258_APKPure.xapk
 
 https://apkpure.net/cn/chatgpt/com.openai.chatgpt#google_vignette
 
 如何使用 APKPure 应用安装 XAPK
+
 要安装 XAPK 文件，最简单的方法是使用 APKPure 应用，它内置了 XAPK 安装程序。
 
 1. 首先，在您的手机上安装 APKPure 应用。您可以点击下方卡片进行下载。
@@ -23,6 +28,7 @@ https://apkpure.net/cn/chatgpt/com.openai.chatgpt#google_vignette
 
 
 另外一个 chatgpt 下载:
+
 https://www.techspot.com/downloads/7545-chatgpt-mobile-app.html
 
 
