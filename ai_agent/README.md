@@ -32,6 +32,10 @@ https://apkpure.net/cn/chatgpt/com.openai.chatgpt#google_vignette
 https://www.techspot.com/downloads/7545-chatgpt-mobile-app.html
 
 
+华为鸿蒙系统 google play 服务: GBox
+https://www.gboxlab.cn/download/
+
+
 ## agent 工具安装
 #### GitNexus:
 https://github.com/abhigyanpatwari/GitNexus
