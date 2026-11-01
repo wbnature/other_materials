@@ -4,14 +4,16 @@ vpn 地址，google 帐号定位地址，信用卡填写地址必须一致，都
 
 ## chatgpt app 安装
 
-安装外网软件: 
+1. 安装外网软件: 
 
 cmfa-2.11.34-meta-universal-release.apk
 
 https://clashmetaforandroid.com/#downloads
 
+安装教程: https://portal.shadowsocks.au/knowledgebase/186/Android-Clash-for-Android-%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95-.html
 
-安桌版本 chatgpt 安装:
+
+2. 安桌版本 chatgpt 安装:
 
 先安装: APKPure_3.20.7901_apkpure.com.apk
 
@@ -31,12 +33,12 @@ https://apkpure.net/cn/chatgpt/com.openai.chatgpt#google_vignette
 6. 如果出现提示，请启用“安装未知来源应用”。
 
 
-另外一个 chatgpt 下载:
+3. 另外一个 chatgpt 下载:
 
 https://www.techspot.com/downloads/7545-chatgpt-mobile-app.html
 
 
-华为鸿蒙系统 google play 服务: GBox
+4. 华为鸿蒙系统 google play 服务: GBox
 https://www.gboxlab.cn/download/
 
 
